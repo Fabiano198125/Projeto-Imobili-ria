@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: Tahoma;
+    text-align: center;
+}
+
+/* === Estilos globais === */
+.secao {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.paragrafo {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
+}
+
+/* ===  1ª seção === */
+.topo {
+    background-color: hsl(184, 79%, 72%);
+}
+
+.topo img {
+    width: 150px;
+    
+}
+
+.paragrafo-topo {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.link-topo {
+    color: #1d1d1d;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
+}
+
+/* ===  2ª seção === */
+
+.banner {
+    padding-top: 0;
+    margin-top: 50px;
+}
+
+/* ===  estilos para destaques === */
+
+span {
+    font-weight: bold;
+}
+
+/* ===  3ª seção === */
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.secao {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.paragrafo {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 20px auto;
+    max-width: 980px;
+}
+
+/* Topo */
+.topo {
+    background-color: hsl(184, 79%, 72%);
+    padding: 20px 0;
+}
+
+.topo img {
+    width: 150px;
+}
+
+.menu-topo {
+    margin-top: 15px;
+}
+
+.link-topo {
+    color: #1d1d1d;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 15px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.link-topo:hover {
+    border-bottom: 2px solid #1d1d1d;
+}
+
+/* Banner */
+.banner {
+    margin-top: 30px;
+}
+
+.imagem-banner {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+/* Textos */
+h1 {
+    color: #1d1d1d;
+}
+
+h2 {
+    font-weight: normal;
+    color: #1c81c0;
+}
+
+span {
+    font-weight: bold;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Serviços */
+.servicos {
+    background-color: #1d80c1;
+}
+
+.paragrafo-servicos {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.lista-servicos {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+}
+
+.item-lista-servicos {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Corretores e Contato */
+.contato {
+    background-color: #1d80c1;
+    color: #ffffff;
+}
+
+.paragrafo-contato {
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin: 30px 0;
+}
+
+.lista-contato {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+}
+
+.item-lista-contato {
+    margin: 10px 0;
+}
+
+.link-contato {
+    background-color: #1d80c1;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.link-contato:hover {
+    background-color: #dbeeff;
+}
